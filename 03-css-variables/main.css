@@ -1,0 +1,14 @@
+:root {
+    --basecolor: #B4D455;
+    --spacing: 0px;
+    --blur: 0px;
+}
+.colorpicked {
+    color: var(--basecolor);
+}
+
+.image {
+    padding: var(--spacing);
+    background: var(--basecolor);
+    filter: blur(var(--blur));
+}
